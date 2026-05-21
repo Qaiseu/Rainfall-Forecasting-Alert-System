@@ -16,7 +16,6 @@ The system classifies rainfall into alert levels based on rainfall intensity thr
 - 📱 Responsive Streamlit dashboard
 - 🧠 AI-assisted development workflow
 
----
 
 ## 🚦 Alert Levels
 
@@ -26,7 +25,6 @@ The system classifies rainfall into alert levels based on rainfall intensity thr
 | 🟡 YELLOW | 10 – 20 mm/h | Moderate Rainfall |
 | 🔴 RED | ≥ 20 mm/h | Heavy Rainfall Alert |
 
----
 
 ## 🛠️ Technologies Used
 
@@ -37,7 +35,6 @@ The system classifies rainfall into alert levels based on rainfall intensity thr
 - NumPy
 - OpenWeatherMap API
 
----
 
 ## 📂 Project Structure
 
