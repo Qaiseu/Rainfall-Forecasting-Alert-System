@@ -49,7 +49,7 @@ rainfall_monitor_project/
 ├── prompt_log.md           # AI interaction documentation
 ├── requirements.txt        # Required Python libraries
 └── README.md               # Project documentation
-
+```
 ## Clone the Repository
 
 git clone https://github.com/Qaiseu/rainfall-monitor.git
