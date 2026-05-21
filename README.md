@@ -52,9 +52,9 @@ rainfall_monitor_project/
 ```
 ## Clone the Repository
 
-git clone https://github.com/Qaiseu/Rainfall-Forecasting-Alert-System
+-git clone https://github.com/Qaiseu/Rainfall-Forecasting-Alert-System
 .git
-cd Rainfall-Forecasting-Alert-System
+-cd Rainfall-Forecasting-Alert-System
 
 
 ## Install Required Libraries
