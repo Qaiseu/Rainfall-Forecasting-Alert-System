@@ -1,22 +1,64 @@
-# Rainfall-Forecasting-Alert-System
+# 🌧️ Rainfall-Forecasting-Alert-System
+
 real-time rainfall monitoring system that integrates external weather APIs, implements threshold-based alerting logic, and displays results through a web dashboard.
 The system classifies rainfall into alert levels based on rainfall intensity thresholds and provides a user-friendly visualization inspired by modern weather applications.
-To clone the repository use:
-git clone https://github.com/qaiseu/rainfall-monitor.git
+
+---
+
+## ✨ Features
+
+- 🌍 Real-time rainfall monitoring by city
+- 🚨 Threshold-based rainfall alerts
+- 📊 Interactive rainfall trend visualization
+- 🎨 Modern weather-app-inspired interface
+- ⚡ Real-time API integration using OpenWeatherMap
+- 🕒 Live timestamp updates
+- 📱 Responsive Streamlit dashboard
+- 🧠 AI-assisted development workflow
+
+---
+
+## 🚦 Alert Levels
+
+| Alert Level | Rainfall Intensity | Status |
+|---|---|---|
+| 🟢 GREEN | < 10 mm/h | Normal Conditions |
+| 🟡 YELLOW | 10 – 20 mm/h | Moderate Rainfall |
+| 🔴 RED | ≥ 20 mm/h | Heavy Rainfall Alert |
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 3.10+
+- Streamlit
+- Requests
+- Pandas
+- NumPy
+- OpenWeatherMap API
+
+---
+
+## 📂 Project Structure
+
+```text
+rainfall_monitor_project/
+│
+├── weather_monitor.py      # Main Streamlit application
+├── alert_log.txt           # Logged rainfall alerts
+├── prompt_log.md           # AI interaction documentation
+├── requirements.txt        # Required Python libraries
+└── README.md               # Project documentation
+
+## Clone the Repository
+
+git clone https://github.com/Qaiseu/rainfall-monitor.git
 cd rainfall-monitor
-To install the required libraries:
+
+## Install Required Libraries
+
 pip install -r requirements.txt
-API Setup:
-This project uses the OpenWeatherMap API.
-After getting your API key, open weather_monitor.py and replace:
-API_KEY = "YOUR_API_KEY"
-with:
-API_KEY = "your_actual_api_key"
-Run the Streamlit dashboard:
+
+## Running the Application
+
 python -m streamlit run weather_monitor.py
-The dashboard includes:
-Real-time rainfall display
-Alert level visualization
-Rainfall trend graph
-City-based monitoring
-Modern weather-style UI
