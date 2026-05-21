@@ -64,3 +64,7 @@ pip install -r requirements.txt
 ## Running the Application
 
 python -m streamlit run weather_monitor.py
+
+---
+
+Qais Douae — 3125999076 — Xi'an Jiaotong University — 2026
